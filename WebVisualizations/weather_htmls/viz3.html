@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand"
+            href="landing.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link"
+                        href="data.html">Data
+                        <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link"
+                        href="comparisons.html">Comparisons
+                        <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                            href="viz1.html">Cloudiness</a>
+                        <a class="dropdown-item"
+                            href="viz2.html">Humidity</a>
+                        <a class="dropdown-item"
+                            href="viz3.html">Temperature</a>
+                        <a class="dropdown-item"
+                            href="viz4.html">Wind
+                            Speed</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class='row'>
+            <div class = "col-md-8">
+                <h2>Latitude vs. <strong>Temperature</strong></h2>
+                <hr>
+                <img src="../Resources/Latitude_vs_temp.png"
+                alt="Humidity">
+                <br>
+                <br>
+                <p>It would appear that because the Southern Hemisphere is further from
+                    the Sun during June, July and August you get the benefit of lower
+                    temperatures as well as humidity. Sounds like a great pick for me!
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h3>Visualizations</h3>
+                <hr>
+
+                <a href="viz1.html">
+                <img src="../Resources/lat_vs_cloud.png"
+                alt="Cloudiness">
+                </a>
+            
+                <a href="viz2.html">
+                <img src="../Resources/lat_vs_humidity.png"
+                alt="Humidity">
+                </a>
+            
+
+            
+                <a href="viz4.html">
+                <img src="../Resources/lat_vs_wind.png"
+                alt="Wind">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
